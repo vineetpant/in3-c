@@ -19,7 +19,7 @@ public class GetBalance {
     String rpcResponse = getBalanceRPC(in3);
     
     if(null != rpcResponse) {
-    	System.out.println(rpcResponse);
+    	System.out.println("Balance RPC "+rpcResponse);
     }
   }
   
